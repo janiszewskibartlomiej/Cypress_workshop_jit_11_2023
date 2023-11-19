@@ -1,0 +1,16 @@
+{
+    "pformella": {
+        "login": "pformella",
+        "password": "1234567890",
+        "email": "jakisEmail"
+    },
+    "user2": {
+        "login": "user2",
+        "password": "1234567890",
+        "email": "jakisEmail"
+    },
+    "userCreated": {
+        "login": "przemyslaw.formella1234709@jit.team",
+        "password": "1234567890"
+    }
+}
