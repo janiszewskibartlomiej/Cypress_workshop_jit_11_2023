@@ -56,6 +56,7 @@ it.only('Second test', () => {
     cy.get('[data-qa="login-password"]').type(user.userCreated.password)
     cy.get('[data-qa="login-button"]').click()
     cy.contains('Logged in as ' + user.pformella.login).should('exist')
+    // delte step not implemnted because we need change logic
 });
 
 function randomInteger(min, max) {
