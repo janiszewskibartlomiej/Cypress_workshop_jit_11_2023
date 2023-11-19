@@ -48,7 +48,7 @@ it('First test', () => {
     cy.get('[data-qa="continue-button"]').click()
 });
 
-it.only('Second test', () => {
+it('Second test', () => {
     cy.get('a[href="/login"]').click()
     cy.get('.signup-form > h2').should('have.text', 'New User Signup!')
     cy.get('.login-form > h2').should('have.text', 'Login to your account')
